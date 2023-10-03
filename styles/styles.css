@@ -156,3 +156,9 @@ header {
   font-style: italic;
   text-shadow: 1px 2px 1px #444;
 }
+
+@media (max-width: 480px) {
+  #todo-container {
+    width: 80%;
+  }
+}
